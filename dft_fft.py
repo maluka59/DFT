@@ -13,7 +13,7 @@ def f(x):
     return np.array(result)
 
 
-# Diese Methode: implementiert Diskrete Fourier Transformation als Matrixmultiplikation nach der Formel aud der Vorleseung 
+# Diese Methode: implementiert Diskrete Fourier Transformation als Matrixmultiplikation nach der Formel 
 def diy_fft(x):
 	N=len(x)
 	X = np.zeros(N, dtype=np.complex64)
